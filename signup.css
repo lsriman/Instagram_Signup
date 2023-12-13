@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+
+}
+.cont2{
+    text-align: center;
+    width: 350px;
+    height: 800px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #dbdbdb;
+    padding: 20px;
+    
+}
+
+.cont3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #dbdbdb;
+    margin: 20px;
+    padding-top: 10px;
+    
+}
+
+.cont4{
+    display: flex;
+    text-align: center;
+}
+
+.cont5{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btnfb{
+    background-color: #0095f6;
+    border-color: #0095f6;
+    width: 300px;
+}
+
+.btnsignup{
+    background-color: #4cb5f9;
+    border-color:  #4cb5f9;
+    width: 300px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #dbdbdb;
+    
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+  
+hr:after {
+    background: #fff;
+    content: 'or';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.p1{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.p2{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.p3{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.image{
+    margin-left: 10px;
+}
+
+.inp{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.cent{
+    
+    text-align: center;
+    padding: 30px;
+    font-size: 12px;
+}
+
+#login{
+    color: #8495f6;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

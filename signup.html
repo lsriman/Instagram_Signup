@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/fd8e8efc33.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="signup.js"></script>
+    <title>Instagram Signup</title>
+</head>
+<body>
+    
+    <div class="cont1">
+        <div class="cont2">
+            <!-- <h1>Instagram</h1> -->
+            <img src="instagramlogo.jpg" width="300px">
+            <p class="p1">Sign up to see photos and videos from your friends.</p>
+            <a title="click to navigate to facebook login page" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Den_GB%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%2522e9lse81b0zvo01jlfz2kxct7nl10yvnsoaerbkx1ru5idk1v84w61%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Daaa8ce5c-ffaf-4f05-a42e-3b847a26afdb%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522e9lse81b0zvo01jlfz2kxct7nl10yvnsoaerbkx1ru5idk1v84w61%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0" target="_blank">
+            <button type="button" class="btn btn-primary btnfb"><i class="fa-brands fa-square-facebook"></i> login with facebook</button></a>
+            <br><hr>
+            <div class="form-floating mb-3 " >
+                <input type="text" class="form-control" id="mobno" placeholder="Mobile number or email address" >
+                <label for="mobno">Mobile no or Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="fullname" placeholder="Full Name" >
+                <label for="fullname">Full Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="username" placeholder="Username" >
+                <label for="username">Username</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="pass" placeholder="Password" >
+                <label for="pass">Password</label>
+            </div>
+            <!-- <input id="mobno" class="form-control inp" title="Mobile number or email address" type="text" placeholder="Mobile number or email address">
+            <input id="fullname" class="form-control inp" title="Full Name" type="text" placeholder="Full Name">
+            <input id="username" class="form-control inp" title="Username" type="text" placeholder="Username">
+            <input id="pass" class="form-control inp" title="Password" type="password" placeholder="Password"> -->
+        
+            <p class="p2">People who use our service may have uploaded your contact information to Instagram. <a title="learn more about Instagram" href="#">Learn more</a>
+            </p><br>
+            <p class="p2">By signing up, you agree to our <a title="click to view terms and condition of Instagram" href="#">Terms</a>, <a title="click to view Privacy Policy" href="#">Privacy Policy</a> and <a title="click to view Cookies Policy" href="#">Cookies Policy.</a></p>
+            <br>
+            <button onclick="signup()" type="button" title="click to Sign Up" class="btn btn-primary btnsignup">Sign Up</button>
+                        
+        </div>
+        <div class="cont3">
+            <p class="p3">Have an account? <a id="login" title="click to navigate instagram login page" href="https://www.instagram.com/accounts/login/?source=auth_switcher" target="_blank">Log in</a></p>
+        </div>
+        <p class="p2">get the app.</p><br>
+        <div class="cont4">
+        <a title="click to open play.google app store" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DC909970A-6F2B-403B-8E66-0A41AB4970F2%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps://www.google.com/&pli=1" target="_blank"><img src="googleplay.png" alt="googleplay image" width="150"></a><a title="click to open microsoft app store" href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1366%2C728" target="_blank"><img class="image" src="microsoft.png" alt="microsoft image" width="120"></a>
+        </div>
+    </div>
+    <footer>
+        <div class="cont5">
+            <p class="cent"><br><a title="Meta Instagram" href="#">Meta</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="About Instagram" href="#">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Instagram Blog" href="#">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Jobs Instagram" href="#">Jobs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Instagram Help" href="#">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="API Instagram" href="#">API</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Privacy Instagram" href="#">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Terms Instagram" href="#">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Instagram Locations" href="#">Locations</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Instagram Lite" href="#">Instagram Lite</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Threads Instagram" href="#">Threads</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Contact uploading and non-users" href="#">Contact uploading and non-users</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a title="Meta Verified" href="#">Meta Verified</a><br><br>
+                <a title="English (UK)" href="#">English (UK)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2023 Instagram from Meta</p><br><br>
+                      
+        </div>
+    </footer>
+    
+</body>
+</html>
