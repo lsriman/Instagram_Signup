@@ -43,16 +43,16 @@ function validate(){
     let uname=document.getElementById('username');
     let pass=document.getElementById('pass');
     if(mob.value.trim() === ''){
-        alert('Fill Mob or Email')
+        alert('Enter Mob or Email')
     }
     else if(fname.value.trim() === ''){
-        alert('Fill Fullname')
+        alert('Enter Fullname')
     }
     else if(uname.value.trim() === ''){
-        alert('Fill Username')
+        alert('Enter Username')
     }
     else if(pass.value.trim() === ''){
-        alert('Fill Password')
+        alert('Enter Password')
     }
     else{
         add()
